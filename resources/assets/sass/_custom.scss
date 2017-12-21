@@ -1,0 +1,227 @@
+.navbar
+{
+  border-top: 10px solid #00aba3;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+  
+}
+
+.navbar a
+{
+  color: black !important;
+}
+
+
+.navbar a:hover
+{
+  color: #00aba3 !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: white;
+}
+
+.btn
+{
+  background-color: white;
+  border: solid 2px #00aba3;
+  color: #00aba3 !important;
+}
+
+.btn:hover
+{
+  background-color: #00aba3;
+  border: solid 2px #00aba3;
+  color: #ffffff !important;
+}
+
+
+.dashboard .panel-heading
+{
+  text-align: center;
+  background-color: #00aba3 !important;
+  color: white !important;
+  font-size: 2em;
+}
+
+.dashboard .panel-custom
+{
+  border: solid 2px #00aba3;
+}
+.dashboard .panel-body h3{
+  margin-bottom: 1em;
+}
+.dashboard .panel-body .btn{
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+
+a{
+  color:#00413c!important;  
+  
+}
+
+a:hover
+{
+  color: #00aba3  !important;
+  text-decoration: none;
+}
+
+.fa-sign-out
+{
+  margin-left: 70px;
+}
+
+.well
+{
+  background-color: rgb(255, 255, 255) !important;
+  border-color: #00201e !important;  
+  text-align: center;
+}
+
+.well:hover
+{
+  border-color: #00aba3 !important;  ;
+ 
+}
+
+.well:hover a
+{
+  color: #00aba3 !important;   
+ 
+}
+
+.well h3
+{
+  margin-top: -5px;
+}
+
+.books img{
+  margin-top: 10px;
+}
+
+
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  z-index: 2;
+  color: black !important;
+  background-color: #cbf0ee;
+  border-color: #ddd;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  z-index: 3;
+  color: #fff !important;
+  background-color: #00aba3;
+  border-color: #00aba3;
+  cursor: default;
+}
+
+
+.alert
+{
+  text-align: center;
+}
+
+.navbar-inverse .navbar-toggle
+{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,171,163, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  border-color: #00aba3;
+
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: rgb(0, 171, 163);
+}
+
+/*
+.trainingInfo
+{
+  background-color: white;
+  border: solid 1px rgb(0, 171, 163);
+  border-radius: 10px;
+}
+*/
+
+.trainingInfo ul {
+  margin-left: -25px;
+}
+
+.btn-approve
+{
+  color: white !important;
+  background-color: rgb(147, 196, 147) !important;
+  border-color: rgb(147, 196, 147) !important;
+}
+
+.btn-refuse
+{
+  color: white !important;
+  background-color: rgb(223, 164, 164) !important;
+  border-color: rgb(223, 164, 164) !important;
+}
+
+.btn-refuse:hover{
+  background-color: rgb(194, 117, 117) !important;
+  border-color:  rgb(194, 117, 117) !important;
+  
+}
+
+.btn-approve:hover
+{
+  background-color: rgb(102, 185, 102) !important;
+  border-color: rgb(102, 185, 102) !important;
+  
+}
+
+
+.managerDashboard .panel-body
+{
+  min-height: 230px;
+}
+
+
+.managerDashboard .panel-heading
+{
+  margin-left: -16px;
+  margin-right: -16px;
+  color: white !important;  
+  background-color: rgb(175, 175, 175) !important;
+}
+
+.managerDashboard .panel-heading h3
+{
+  margin-top: 5px;
+}
+
+.managerDashboard .panel-heading:hover
+{
+  color: white !important;  
+  background-color: rgb(128, 128, 128) !important;
+}
+
+.managerDashboard .approved{
+  color: white !important;
+  background-color: rgb(147, 196, 147) !important;
+}
+
+.managerDashboard .approved:hover
+{
+  color: white !important;
+  background-color: rgb(102, 185, 102) !important;
+}
+
+.managerDashboard .refused{
+  color: white !important;
+  background-color: rgb(223, 164, 164) !important;
+}
+
+.managerDashboard .refused:hover
+{
+  color: white !important;
+  background-color: rgb(194, 117, 117) !important;
+}
