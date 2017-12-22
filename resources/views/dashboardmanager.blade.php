@@ -78,7 +78,6 @@
                                 <?php echo "E-Mail: <b>" . substr($userMail, 11, -3) . "</b>"?>
                                 <br />
                                 <?php echo "Current State: <b>" . $currentState . "</b>"?>
-                                <br>
                                 Reason:
                             </h4>
                             <p>

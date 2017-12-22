@@ -31,7 +31,7 @@ class ManageTrainingsController extends Controller
     {
 
         $trainingrequests = DB::table('Training_Requests')
-            ->where('user_id', '<>', auth()->user()->id)
+            //->where('user_id', '<>', auth()->user()->id)
             ->orderBy('status', 'asc')
             ->get();
 
