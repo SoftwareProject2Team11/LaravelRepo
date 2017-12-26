@@ -5,7 +5,7 @@
 <h1 class="text-center">Survey for <?php echo $trainings->trainingName?></h1>
 
 <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 text-center">
 
 	            <?php
 	            	$trainingId = $trainings->trainingId;
@@ -34,7 +34,7 @@
 	            @if(count($questions) > 0)
 	            @foreach($questions as $question)
 					<div class="row">
-						<div class="col-md-4 col-sm-8">
+						<div class="col-md-offset-4 col-md-4 col-sm-8 col-sm-offset-2">
 							<h3>
 								{{$question->question}}
 							</h3>
