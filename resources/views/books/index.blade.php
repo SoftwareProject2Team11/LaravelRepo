@@ -8,7 +8,7 @@
 		<input id="search" placeholder="Title or Author">
 		<br><br>
 		<button id="button" class ="btn btn-primary" type="submit">Search</button>
-		<button id="button2" class ="btn btn-primary" type="button" onClick="document.location.reload(true)">Make a new search</button>
+		<button id="button2" class ="btn btn-primary" type="button" onClick="document.location.reload(true)">New Search</button>
 		<div id="result"></div>
 	</div>
 
