@@ -29,10 +29,11 @@ class ManageTrainingsController extends Controller
      */
     public function index()
     {
-
         $trainingrequests = DB::table('Training_Requests')
-            ->where('user_id', '<>', auth()->user()->id)
+            //->where('user_id', '<>', auth()->user()->id)
             ->orderBy('status', 'asc')
+            ->orderBy('requestId', 'asc')
+            ->orderBy('trainingId', 'asc')
             ->get();
 
         //$trainingrequests = ManageTraining::orderBy('trainingName', 'asc')->paginate(10);
