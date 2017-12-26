@@ -76,12 +76,12 @@ class TrainingRequestsController extends Controller
         $trainingrequest->status=1;
         $trainingrequest->save();
 
-        //mail logic
+            //Mail Logic
 
             $requestId = DB::table('Training_Requests')
             ->max('requestId');
 
-            //Get email van user
+            //Get Email from User
             $UserId = DB::table('Training_Requests')
             ->select('user_Id')
             ->where('requestId', (int)$requestId)
@@ -97,7 +97,7 @@ class TrainingRequestsController extends Controller
             $emailOfUser = substr($emailOfUser, 11, -3);
 
 
-            //Date van training ophalen
+            //Date from Training
             $IdOfTraining = DB::table('Training_Requests')
             ->select('trainingId')
             ->where('requestId', $requestId)

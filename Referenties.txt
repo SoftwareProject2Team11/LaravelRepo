@@ -1,0 +1,14 @@
+https://www.w3schools.com/css/css3_gradients.asp
+https://www.w3.org/Style/Examples/007/fonts.nl.html
+https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_breakpoints
+https://www.w3schools.com/tags/tag_input.asp
+https://stackoverflow.com/questions/4570266/arraylist-in-php
+https://www.w3schools.com/graphics/tryit.asp?filename=trymap_intro
+https://developers.google.com/maps/documentation/javascript/examples/places-searchbox
+https://developers.google.com/maps/documentation/javascript/examples/marker-simple
+https://www.codeofaninja.com/2014/06/google-maps-geocoding-example-php.html
+https://stackoverflow.com/questions/22439939/google-map-markers-in-php-code
+https://www.youtube.com/watch?v=a08ouL3wjjQ
+https://stackoverflow.com/questions/31360345/laravel-queues-delay-length
+http://php.net/manual/en/datetime.diff.php
+https://laravel.com/docs/5.5/queries

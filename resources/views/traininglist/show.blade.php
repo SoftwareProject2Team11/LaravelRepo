@@ -9,7 +9,7 @@
      
      <br><br>
 <div class="row">
-<div class="col-lg-4 trainingInfo">
+<div class="col-lg-4 trainingInfo text-center">
      <div><p><b><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
 
  Starting Date:</b>
@@ -48,6 +48,7 @@
     <div><p><b><i class="fa fa-book" aria-hidden="true"></i>
 
   Materials:</b>
+  <br>
         <?php 
          $training_id = $traininglist->trainingId;
             $materials = DB::table('Material')
@@ -60,9 +61,7 @@
                 echo '<ul>';
                 foreach ($materials as $material) {
                     $materialTitle = $material->title;
-                    $materialAuthor = $material->author;
-                    $materialISBN = $material->isbn;
-                    echo "<li><b>$materialTitle</b> <br>$materialISBN (isbn) <br> $materialAuthor</li>";
+                    echo "<li>$materialTitle</li>";
                 }
                 echo '</ul>';
             }
@@ -128,14 +127,12 @@
             echo "$streetName $houseNumber, $city";
         ?>
         </p>
-
+<br>
     </div>
    
 
 
     <div class="col-lg-8">
-
-
 
     <div>
 
@@ -223,7 +220,7 @@
 ?>
 
     <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 text-center">
             <br> <br>
                 <h2 class="text-center">Request Training</h2>
 
