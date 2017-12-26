@@ -50,11 +50,6 @@ console.log(search)
 
 
 
-}
-document.getElementById('button').addEventListener('click',zoekboek,false)
-document.getElementById('button').addEventListener('keypress',zoekboek,false)
-
-
 /*
 $(function() {
     $("form input").keypress(function (e) {

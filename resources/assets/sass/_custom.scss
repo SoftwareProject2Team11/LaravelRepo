@@ -154,34 +154,37 @@ a:hover
 .btn-approve
 {
   color: white !important;
-  background-color: rgb(147, 196, 147) !important;
-  border-color: rgb(147, 196, 147) !important;
+  background-color: rgb(102, 185, 102) !important;
+  border-color: rgb(102, 185, 102) !important;
 }
 
 .btn-refuse
 {
   color: white !important;
-  background-color: rgb(223, 164, 164) !important;
-  border-color: rgb(223, 164, 164) !important;
+  background-color: rgb(197, 97, 97) !important;
+  border-color: rgb(197, 97, 97) !important;
 }
 
 .btn-refuse:hover{
-  background-color: rgb(194, 117, 117) !important;
-  border-color:  rgb(194, 117, 117) !important;
+  background-color:  rgb(155, 55, 55) !important;
+  border-color:   rgb(155, 55, 55) !important;
   
 }
 
+
+
 .btn-approve:hover
 {
-  background-color: rgb(102, 185, 102) !important;
-  border-color: rgb(102, 185, 102) !important;
+  background-color: rgb(59, 129, 59) !important;
+  border-color: rgb(59, 129, 59) !important;
   
 }
+
 
 
 .managerDashboard .panel-body
 {
-  min-height: 230px;
+   min-height: 297.5px !important;
 }
 
 
@@ -198,7 +201,7 @@ a:hover
   margin-top: 5px;
 }
 
-.managerDashboard .panel-heading:hover
+.trainingRequest:hover .standard
 {
   color: white !important;  
   background-color: rgb(128, 128, 128) !important;
@@ -206,22 +209,61 @@ a:hover
 
 .managerDashboard .approved{
   color: white !important;
-  background-color: rgb(147, 196, 147) !important;
+  background-color: rgb(102, 185, 102) !important;
 }
 
-.managerDashboard .approved:hover
+.trainingRequest:hover .approved
 {
   color: white !important;
-  background-color: rgb(102, 185, 102) !important;
+  background-color: rgb(59, 129, 59) !important;
 }
 
 .managerDashboard .refused{
   color: white !important;
-  background-color: rgb(223, 164, 164) !important;
+  background-color: rgb(197, 97, 97) !important;
 }
 
-.managerDashboard .refused:hover
+.trainingRequest:hover .refused
 {
   color: white !important;
-  background-color: rgb(194, 117, 117) !important;
+  background-color: rgb(155, 55, 55) !important;
+}
+
+
+.btn-primary:active, .btn-danger:active, .btn-default:active
+{
+  border-color: #005f59 !important;
+  background-color: #005f59 !important;
+  color: white !important;
+}
+
+.panel-custom h3 {
+  margin-top: 5px;
+}
+
+.trainingRequest p {
+  margin-top: -7.5px;
+}
+
+.btn-edit
+{
+  border: none;
+  margin-top: 17.5px;
+  font-size: 1.75em;
+  text-align: center;
+  background-color: rgba(255,255,255,0) !important;
+}
+
+
+.btn-refuse:active{
+  background-color:  rgb(102, 25, 25) !important;
+  border-color:   rgb(102, 25, 25) !important;
+  
+}
+
+.btn-approve:active
+{
+  background-color: rgb(29, 88, 29) !important;
+  border-color: rgb(29, 88, 29) !important;
+  
 }
