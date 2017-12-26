@@ -62,16 +62,12 @@
 				</li>
 					</ul>
 				</li>
-				<li><a href="/dashboard">Dashboard</a></li>
 
 				<?php
 					$user = auth()->user();
 
 					if($user->manager == 1){
 						echo "<li><a href=" . "/dashboardmanager" . ">Requests</a></li>";
-					}
-					else{
-						echo "<li><a href=" . "/keyCodeForMan" . ">Graduate</a></li>";
 					}
 				?>
 
@@ -85,7 +81,21 @@
 					</a>
 
 					<ul class="dropdown-menu">
-                    
+
+				<li><a href="/dashboard">Dashboard</a></li>
+					
+
+					<?php
+					$user = auth()->user();
+
+					if($user->manager == 0){
+						echo "<li><a href=" . "/keyCodeForMan" . ">Become Manager</a></li>";
+					
+					}
+					
+				?>
+					
+					
 						<li>
 							<a href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
