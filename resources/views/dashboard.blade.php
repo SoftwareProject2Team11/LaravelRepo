@@ -4,10 +4,8 @@
 		<div class="col-md-6 col-md-offset-3 dashboard">
 			<div class="panel panel-default panel-custom">
 				<div class="panel-heading">Dashboard</div>
-
 				<div class="panel-body">
-
-					<h3>Training Requests</h3>
+					<h3 class="text-center">Your Training Requests</h3>
 					@if(count($trainingrequests) > 0)
 					<table class="table table-striped">
 						<tr>
@@ -26,12 +24,12 @@
 									->select('trainingName')
 									->where('trainingId', $trainingId)
 									->get();
-
+									
 									echo substr($trainingName, 18, -3);
 								?>
 							</td>
 
-							<td>{{$trainingrequest->created_at}}</td>
+						<td>{{$trainingrequest->created_at}}</td>
 							<td>
 								<?php
 									$statusId = $trainingrequest->status;
